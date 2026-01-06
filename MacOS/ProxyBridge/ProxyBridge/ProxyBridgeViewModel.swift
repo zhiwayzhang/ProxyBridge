@@ -13,7 +13,7 @@ class ProxyBridgeViewModel: NSObject, ObservableObject {
     private(set) var proxyConfig: ProxyConfig?
     
     private let maxLogEntries = 1000
-    private let logPollingInterval = 0.1
+    private let logPollingInterval = 2.0
     private let extensionIdentifier = "com.interceptsuite.ProxyBridge.extension"
     
     struct ProxyConfig {
